@@ -1,4 +1,33 @@
-venv/
+# Environments
 .env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+
+# Local Databases
+*.sqlite3
+*.db-shm
+*.db-wal
+# Note: robot_vacuum.db is intentionally tracked for demonstration purposes
+
+# Large Data files
+data/*.json
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS Generated
+.DS_Store
+Thumbs.db
+doc/video_demo/*.mp4
