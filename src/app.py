@@ -7,18 +7,6 @@ import pandas as pd
 from pathlib import Path
 import sys
 import logging
-import subprocess
-
-
-BASE_DIR = Path(__file__).resolve().parent
-DB_PATH = BASE_DIR / "robot_vacuum.db"
-
-if not DB_PATH.exists():
-    subprocess.run(
-        [sys.executable, "-m", "etl.db_loader"],
-        cwd=BASE_DIR,
-        check=True,
-    )
 
 # Add src to path for imports
 src_dir = Path(__file__).parent
