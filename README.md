@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-# Agentic_SQL_Core_LangGraph
-Agentic SQL Core LangGraph is a multi-agent AI analytics system that lets users query SQLite databases using natural language. Built with LangGraph, LangChain, OpenRouter, Pandas, Plotly, and Streamlit, it dynamically generates SQL/Python, executes queries, and presents results as tables or interactive visualizations.
+
 =======
 # 🤖 Agentic SQL Core: Structural Query Engine (LangGraph & SQLite)
 
@@ -63,7 +61,7 @@ This command will:
 Create a `.env` file in the `src/` directory:
 
 ```env
-OPENAI_API_KEY=your_openai_api_key_here
+OOPENROUTER_API_KEY=your_open_router_api_key_here
 ```
 
 ### Step 4: Launch the Streamlit Application
